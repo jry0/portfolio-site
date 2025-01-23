@@ -10,16 +10,16 @@
   --clr-bg-alt: #e1ce995a;
   --clr-fg: #555;
   --clr-fg-alt: #444;
-  --clr-primary: #677a84;
+  --clr-primary: #587885;
   --shadow: rgba(13, 13, 14, 0.278) 0px 7px 29px 0px;
 }
 
 .dark {
   --clr-bg: #333535;
   --clr-bg-alt: #3f4245;
-  --clr-fg: #e7d59ba5;
-  --clr-fg-alt: #d5c79a;
-  --clr-primary: #8c8b84;
+  --clr-fg: #bcb9add3;
+  --clr-fg-alt: #d4d0b4b4;
+  --clr-primary: #e4d797d6;
   --shadow: rgba(229, 209, 149, 0.107) 0px 10px 36px 0px,
     rgba(106, 106, 83, 0.132) 0px 0px 0px 1px;
 }

@@ -1,71 +1,68 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://jerryxing.com',
+  title: 'Jerry Xing',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Jerry Xing',
+  role: 'backend software engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+  'I bring hands-on experience collaborating with project, product, and platform-focused teams.    Proficient in Java, Python, and Go, I specialize in API development, building scalable backend services, and designing distributed system architectures.',
+  resume: 'https://docs.google.com/document/d/1qkCRacpxRN1IewHFRlHc9P1tTve1oZDwIy1xg3l_sKc/edit?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/jerryxing',
+    github: 'https://github.com/jry0',
   },
 }
 
 const projects = [
-  // projects can be added an removed
+  // projects can be added and removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Personal Key-Value Store',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'A key-value server with sample CLI client implementation and configurable snapshotting / AOF for data persistence.',
+      stack: ['Go', 'gRPC', 'protobufs'],
+    sourceCode: 'https://github.com/jry0/personal-kv-store',
+    /// livePreview: 'https://github.com', 
+
   },
   {
-    name: 'Project 2',
+    name: 'Pixel Canvas',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'One million shared and editable pixels. Inspired by Reddit\'s r/place.',
+    stack: ['personal-kv-store', 'Python', 'FastAPI', 'Websockets'],
+    sourceCode: 'https://github.com/jry0/shared-pixel-canvas',
+    livePreview: 'https://github.com/jry0/shared-pixel-canvas',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Java',
+  'Python',
+  'Go',
+  'REST APIs',
+  'gRPC',
+  'SQL',
+  'NoSQL',
+  
+  'Redis',
+  'Elasticsearch',
+  'RabbitMQ',
+  'Distributed Systems',
+  'Docker',
+  'Kubernetes',
   'Git',
   'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'j27xing@uwaterloo.ca',
 }
 
 export { header, about, projects, skills, contact }
