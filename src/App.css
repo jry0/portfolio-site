@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
 .app {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  font-size: 1.3rem; /* Further increase base font size */
 }
 
 .light {
-  --clr-bg: #f3e3b5;
+  --clr-bg: #d6cdb2;
   --clr-bg-alt: #e1ce995a;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -18,7 +21,7 @@
   --clr-bg: #333535;
   --clr-bg-alt: #3f4245;
   --clr-fg: #bcb9add3;
-  --clr-fg-alt: #d4d0b4b4;
+  --clr-fg-alt: #dfdbc3b4;
   --clr-primary: #e4d797d6;
   --shadow: rgba(229, 209, 149, 0.107) 0px 10px 36px 0px,
     rgba(106, 106, 83, 0.132) 0px 0px 0px 1px;
@@ -38,6 +41,7 @@ main {
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
+  font-size: 1.6rem; /* Further adjust section title font size */
 }
 
 .center {
@@ -79,6 +83,7 @@ main {
 
 .link--icon {
   color: var(--clr-fg);
+  font-size: 1.2rem; /* Increase icon size */
 }
 
 .btn {
@@ -86,7 +91,7 @@ main {
   cursor: pointer;
   padding: 0.8em 1.4em;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1.1rem; /* Further adjust button font size */
   text-transform: lowercase;
   transition: transform 0.2s ease-in-out;
 }
@@ -143,6 +148,11 @@ main {
 
 .btn--icon:active {
   transform: translateY(-5px);
+}
+
+.about-text {
+  font-size: 4.0rem; /* Increase font size for about text */
+  text-align: justify; /* Full justify the about text */
 }
 
 @media (max-width: 600px) {
