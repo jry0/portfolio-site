@@ -9,7 +9,7 @@ const about = {
   name: 'Jerry Xing',
   role: 'backend software engineer',
   description:
-  'I bring hands-on experience collaborating with project, product, and platform-focused teams.    Proficient in Java, Python, and Go, I specialize in API development, building scalable backend services, and designing distributed system architectures.',
+  'I bring past startup experience working on product and platform teams. I specialize in API development, building scalable backend services, and distributed system architectures, with expertise in Java, Python, and Go.',
   resume: '/Jerry_Xing_Resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/jerryxing',
