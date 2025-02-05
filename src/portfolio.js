@@ -9,7 +9,7 @@ const about = {
   name: 'Jerry Xing',
   role: 'backend software engineer',
   description:
-  'I bring past startup experience working on product and platform teams. I specialize in API development, building scalable backend services, and distributed system architectures, with expertise in Java, Python, and Go.',
+  'I bring past startup experience working on product and platform teams. I specialize in API development, building scalable backend services, and distributed system architectures, with experience in Java, Python, and Go.',
   resume: '/Jerry_Xing_Resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/jerryxing',
@@ -65,4 +65,12 @@ const contact = {
   email: 'j27xing@uwaterloo.ca',
 }
 
-export { header, about, projects, skills, contact }
+const education = [
+  {
+    degree: 'BASc in Computer Engineering, Co-op, Honours',
+    institution: 'University of Waterloo',
+    year: '2024'
+  }
+]
+
+export { header, about, projects, skills, education, contact }
